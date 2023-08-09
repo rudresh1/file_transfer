@@ -1,12 +1,12 @@
 
 
 
-######  PREREQUISITS ############
+###  PREREQUISITS ############
 
             AWS S3 bucket and Credentials
 
 1. Create s3 bucket and AWS_ACCESS_KEY,  AWS_SECRET_KEY
-# AWS_ACCESS_KEY and AWS_SECRET_KEY follow bellow link
+#### AWS_ACCESS_KEY and AWS_SECRET_KEY follow bellow link
 https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html
 
 
@@ -19,7 +19,7 @@ https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up
 
 #### Download this installable module locally (path/to/installable/module/directory) ###
 
-###### File drectory Structure ################
+### File drectory Structure ################
 
 transfer/
 |-- transfer/
@@ -32,31 +32,31 @@ transfer/
 |-- setup.py
 
 
-###### INSTALLATION ##############
+## INSTALLATION ##############
 
 Active your virtual environment where your project running 
-# Create a virtual environment named 'myenv' if not
+#### Create a virtual environment named 'myenv' if not
 python -m venv myenv
 
-# Activate the virtual environment
-# On Windows
+#### Activate the virtual environment
+#### On Windows
 myenv\Scripts\activate
-# On macOS and Linux
+#### On macOS and Linux
 source myenv/bin/activate
 
-# create new package in your project dir 'file_transfer'
-# install module
+### create new package in your project dir 'file_transfer'
+#### install module
 pip install path/to/installable/module/directory -t path/to/your/newly/created/packege/file_transfer
 
-# Configuring S3 Bucket, GCS Bucket and  File Extensions in 'transfer' module
+#### Configuring S3 Bucket, GCS Bucket and  File Extensions in 'transfer' module
 Goto  >>  file_transfer/transfer/config.py
 configure all properties
 
-# to use this module in your project 
+#### to use this module in your project 
 from file_transfer.transfer.transfer import Transfer
 
-# Create object of Transfer 
+#### Create object of Transfer 
 ft = Transfer()
 
-# call 'transfer_file' method and pass directory path as parameter from where images, media and docs are upload to Cloud
+#### call 'transfer_file' method and pass directory path as parameter from where images, media and docs are upload to Cloud
 ft.transfer_files(r'path\to\local\files\directory\')
