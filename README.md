@@ -1,7 +1,9 @@
+This installable module is for uploading files to cloud storage(S3 bucket ang GCS) from local directory.
 
 
 
 ###  PREREQUISITS ############
+ 
 
             AWS S3 bucket and Credentials
 
@@ -14,7 +16,7 @@ https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up
 2. Create GCS Bucket, Create a new service account or select an existing one and get JSON file containing the credentials.
 
 
-
+3. you should have Python 3 or hiegher version 
 
 
 #### Download this installable module locally (path/to/installable/module/directory) ###
