@@ -19,7 +19,7 @@ https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up
 3. you should have Python 3 or hiegher version 
 
 
-#### Download this installable module locally (path/to/installable/module/directory) ###
+
 
 ### File drectory Structure ################
 
@@ -32,6 +32,10 @@ transfer/
 |   |-- test_transfer.py
 |-- README.md
 |-- setup.py
+
+
+#### Download this installable module locally (path/to/installable/module/directory) ###
+
 
 
 ## INSTALLATION ##############
