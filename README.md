@@ -34,7 +34,7 @@ transfer/
 |-- setup.py
 
 
-#### Download this installable module locally (path/to/installable/module/directory) ###
+##### Download this installable module locally (path/to/installable/module/directory) ###
 
 
 
@@ -50,11 +50,11 @@ Active your virtual environment where your project running
 #### On macOS and Linux
                         source myenv/bin/activate
 
-### create new package in your project dir 'file_transfer'
+#### create new package in your project dir 'file_transfer'
 #### install module
                         pip install path/to/installable/module/directory -t path/to/your/newly/created/packege/file_transfer
 
-#### Configuring S3 Bucket, GCS Bucket and  File Extensions in 'transfer' module
+#### Configuring S3 Bucket, GCS Bucket and  File Extensions in 'transfer' module config file
 Goto  >>  file_transfer/transfer/config.py
 configure all properties
 
