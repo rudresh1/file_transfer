@@ -34,8 +34,8 @@ transfer/
 
 ## INSTALLATION ##############
 
-Active your virtual environment where your project running 
-#### Create a virtual environment named 'myenv' if not
+Active your virtual environment where your project running
+#### To Create a virtual environment named 'myenv' 
 python -m venv myenv
 
 #### Activate the virtual environment
