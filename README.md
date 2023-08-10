@@ -36,27 +36,27 @@ transfer/
 
 Active your virtual environment where your project running
 #### To Create a virtual environment named 'myenv' 
-python -m venv myenv
+                        python -m venv myenv
 
 #### Activate the virtual environment
 #### On Windows
-myenv\Scripts\activate
+                        myenv\Scripts\activate
 #### On macOS and Linux
-source myenv/bin/activate
+                        source myenv/bin/activate
 
 ### create new package in your project dir 'file_transfer'
 #### install module
-pip install path/to/installable/module/directory -t path/to/your/newly/created/packege/file_transfer
+                        pip install path/to/installable/module/directory -t path/to/your/newly/created/packege/file_transfer
 
 #### Configuring S3 Bucket, GCS Bucket and  File Extensions in 'transfer' module
 Goto  >>  file_transfer/transfer/config.py
 configure all properties
 
 #### to use this module in your project 
-from file_transfer.transfer.transfer import Transfer
+                        from file_transfer.transfer.transfer import Transfer
 
 #### Create object of Transfer 
-ft = Transfer()
+                        ft = Transfer()
 
 #### call 'transfer_file' method and pass directory path as parameter from where images, media and docs are upload to Cloud
-ft.transfer_files(r'path\to\local\files\directory\')
+                        ft.transfer_files(r'path\to\local\files\directory\')
