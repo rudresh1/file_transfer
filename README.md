@@ -6,7 +6,7 @@
             AWS S3 bucket and Credentials
 
 1. Create s3 bucket and AWS_ACCESS_KEY,  AWS_SECRET_KEY
-#### To get AWS_ACCESS_KEY and AWS_SECRET_KEY follow bellow link
+#####      To get AWS_ACCESS_KEY and AWS_SECRET_KEY follow bellow link
 https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html
 
 
