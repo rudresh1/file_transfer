@@ -34,7 +34,7 @@ transfer/
 |-- setup.py
 
 
-#### Download or clone this installable module locally (path/to/installable/module/directory) ###
+#### Download this installable module locally (path/to/installable/module/directory) ###
 
 
 
