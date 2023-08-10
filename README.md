@@ -58,7 +58,7 @@ Active your virtual environment where your project running
 Goto  >>  file_transfer/transfer/config.py
 configure all properties
 
-#### to use this module in your project 
+#### Import this module in your project to use this 
                         from file_transfer.transfer.transfer import Transfer
 
 #### Create object of Transfer 
